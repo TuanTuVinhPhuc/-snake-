@@ -1,0 +1,27 @@
+﻿main.obj : error LNK2019: unresolved external symbol SDL_GetError referenced in function "struct SDL_Texture * __cdecl loadTexture(char const *,struct SDL_Renderer *)" (?loadTexture@@YAPEAUSDL_Texture@@PEBDPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "bool __cdecl setUpThing(void)" (?setUpThing@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "void __cdecl DELETE(void)" (?DELETE@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "bool __cdecl handleInput(struct Snake &,bool &)" (?handleInput@@YA_NAEAUSnake@@AEA_N@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_LogMessage referenced in function "struct SDL_Texture * __cdecl loadTexture(char const *,struct SDL_Renderer *)" (?loadTexture@@YAPEAUSDL_Texture@@PEBDPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "bool __cdecl setUpThing(void)" (?setUpThing@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function "struct SDL_Texture * __cdecl loadTexture(char const *,struct SDL_Renderer *)" (?loadTexture@@YAPEAUSDL_Texture@@PEBDPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "void __cdecl renderGame(struct Snake &)" (?renderGame@@YAXAEAUSnake@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function "void __cdecl renderGame(struct Snake &)" (?renderGame@@YAXAEAUSnake@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function "void __cdecl renderGame(struct Snake &)" (?renderGame@@YAXAEAUSnake@@@Z)
+main.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "void __cdecl DELETE(void)" (?DELETE@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "bool __cdecl setUpThing(void)" (?setUpThing@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol IMG_Load referenced in function "struct SDL_Texture * __cdecl loadTexture(char const *,struct SDL_Renderer *)" (?loadTexture@@YAPEAUSDL_Texture@@PEBDPEAUSDL_Renderer@@@Z)
+main.obj : error LNK2019: unresolved external symbol Mix_OpenAudio referenced in function "bool __cdecl setUpThing(void)" (?setUpThing@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_LoadMUS referenced in function "bool __cdecl setUpThing(void)" (?setUpThing@@YA_NXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_FreeMusic referenced in function "void __cdecl DELETE(void)" (?DELETE@@YAXXZ)
+main.obj : error LNK2019: unresolved external symbol Mix_PlayMusic referenced in function SDL_main
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\\SDL x86\SDL2 x86\lib\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\\SDL x86\SDL2 x86\lib\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\\SDL x86\SDL2_image x86\lib\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\\SDL x86\SDL2_mixer x86\lib\SDL2_mixer.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\\SDL x86\SDL2_ttf x86\lib\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Littl\Desktop\Empty CPP\Tuan Tran\Snake\x64\Debug\Tuán Tràn in NUTSHELL.exe : fatal error LNK1120: 21 unresolved externals
